@@ -1,0 +1,17 @@
+# Compiled binaries
+library-system
+library-system.exe
+*.o
+*.obj
+*.out
+
+# Runtime data
+library_books.txt
+library_users.txt
+library_records.txt
+*.csv
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
