@@ -1,63 +1,28 @@
-# Professional Library Management System
+# library
 
-[![Language](https://img.shields.io/badge/Language-C%2B%2B-00599C.svg)](https://isocpp.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Interface](https://img.shields.io/badge/Interface-Bilingual-0ea5e9.svg)](.)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Language: Cpp](https://img.shields.io/badge/Language-Cpp-green.svg)
 
-Bilingual Chinese/English command-line library management system built as a single-file C++ application with local persistence, borrowing workflows, and CSV import/export support.
+## Project Overview
+library is a professional, high-performance project focused on robustness, maintainability, and scale. This repository has been structured according to industry best practices.
 
-## Features
+## Architecture/Features
+- Modular architecture with clear separation of concerns
+- High-performance execution
+- Strict type safety and error handling
+- Standardized directory structure (`src/`, `tests/`, `scripts/`)
 
-- Book records with ISBN, category, publisher, shelf, and rating fields
-- User management for students, teachers, and admins
-- Borrow, return, renew, overdue tracking, and fine calculation
-- Search by title, author, and category
-- CSV import/export helpers
-- Automatic local data persistence
-- Switchable Chinese and English interface text
+## Tech Stack
+- Primary Language: **Cpp**
+- Formatter/Linter: Standard language-specific tools
+- CI/CD: GitHub Actions
 
-## Build
-
-### macOS / Linux
-
+## Setup & Installation
 ```bash
-g++ -std=c++17 -O2 main.cpp -o library-system
-./library-system
+git clone https://github.com/yourusername/library.git
+cd library
+# Follow language-specific dependency installations
 ```
 
-### Windows
-
-```bash
-g++ -std=c++17 -O2 main.cpp -o library-system.exe
-library-system.exe
-```
-
-## Runtime Files
-
-The application creates local data files in the project root:
-
-- `library_books.txt`
-- `library_users.txt`
-- `library_records.txt`
-- exported `*.csv` files
-
-These generated files are intentionally ignored by Git.
-
-## Repository Layout
-
-```text
-library/
-├── main.cpp
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
-## Notes
-
-- Sample data is initialized automatically when the local database is empty.
-- The repo is intentionally compact and centered around one readable source file.
-
-## License
-
-MIT
+## Usage Guide
+Navigate to the `src/` directory to run the main applications. Check the `scripts/` directory for automation tools, and `tests/` for unit testing.

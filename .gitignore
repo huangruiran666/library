@@ -1,17 +1,41 @@
-# Compiled binaries
-library-system
-library-system.exe
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
 *.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
 *.out
+*.app
+build/
+bin/
 
-# Runtime data
-library_books.txt
-library_users.txt
-library_records.txt
-*.csv
-
-# Editor / OS
-.vscode/
+# IDEs
 .idea/
-.DS_Store
+.vscode/
+*.swp
+*.swo
